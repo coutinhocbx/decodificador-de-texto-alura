@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de Texto</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <main>
+        <header> <img class="logoalura" src="./assets/Logo-alura.png" alt="Logo da Alura"> </header>
+        <section class="apresentacao__conteudo">
+            <textarea id="text-area" rows="4" placeholder="Digite seu texto"></textarea>
+            <div class="apresentacao__informacao">
+                <img src="/assets/informacao.png" alt="Ponto de exclamação" width="15" height="15">
+                <h6>Apenas letras minúsculas e sem acento.</h6>
+            </div>
+            <div class="apresentacao__botoes">
+                <button class="apresentacao__botoes__encriptar" onclick="verificarCriptografia()">Criptografar</button>
+                <button class="apresentacao__botoes__desencriptar" onclick="verificarDescriptografia()">Descriptografar</button>
+            </div>
+        </section>
+        <section id="apresentacao__texto" class="apresentacao__resultado">
+            <img class="apresentacao__imagem" src="/assets/Imagem-copiar.png"
+                alt="Pessoa observando um diamante com uma lupa">
+            <p class="apresentacao__resultado__inicio">Nenhuma mensagem encontrada</p>
+            <p class="apresentacao__resultado__entrada">Digite um texto que você deseja criptografar ou descriptografar.
+            </p>
+        </section>
+    </main>
+    <footer>Desenvolvido por <a href="https://github.com/coutinhocbx">Franciny Coutinho</a></footer>
+</body>
+</html>
