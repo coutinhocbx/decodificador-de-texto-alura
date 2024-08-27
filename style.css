@@ -129,6 +129,10 @@ textarea::placeholder {
     padding: 0.5rem;
 }
 
+.texto__resultado {
+    background-color: var(--cor-terciaria);
+}
+
 footer {
     color: var(--cor-principal);
     text-align: center;
